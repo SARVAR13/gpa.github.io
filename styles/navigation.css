@@ -1,0 +1,86 @@
+/* Primary navigation */
+nav > ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav > ul > li {
+	float: left;
+}
+/*    The style of buttons such as Home    */
+nav a {
+	display: inline-block;
+	color: #800517;
+    text-align: center;
+    padding: 0.5em 1em;
+	font-size: 0.8em;
+}
+
+nav a,
+nav a:hover {
+	text-decoration: none;
+}
+/*    The style of background of buttons such as Home    */
+nav li:hover,
+nav li.active,
+.dropdown-content a:hover {
+	background-color: #43B7BA;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.dropdown:after {
+	content: "▾";
+	margin-right: 0.5em;
+}
+/*    The style of background of right side block-content such as additional    */
+.dropdown-content {
+	display: none;
+    position: absolute;
+    background-color: #87F717;
+    min-width: 200px;
+    box-shadow: 0 0 0.5em black;
+    z-index: 1;
+}
+/*    The style of text-formating of right side in website block-content such as additional    */
+.dropdown-content a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*  the following codes namely header, footer , nav and footer are the basic elements that are used in HTML5. */
+footer > section {
+	text-align: left;
+	display: inline-block;
+	margin-right: 2em;
+	vertical-align: top;
+	max-width: 200px;
+}
+
+footer > section > ul,
+footer > section > p {
+	font-size: 0.8em;
+}
+/*  the following codes namely header, footer , nav and footer are the basic elements that are used in HTML5. */
+footer > section > ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+footer > section li:hover > a:before,
+footer > section li.active > a:before {
+	content: "▸";
+	position: absolute;
+	margin-left: -1em;
+}

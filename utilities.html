@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <title>About this website</title>
+    <link rel="stylesheet" href="styles/wiut.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+	<link rel="stylesheet" href="styles/slideshow.css">
+  </head>
+  <body background="images/paper.jpg" style="background-repeat: no-repeat ; background-size: cover;">
+  		    <!-- the following codes namely header, footer , nav and footer are the basic elements that are used in HTML5.
+				  -->
+    <header>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">  </div>
+    <img src="images/aa.jpg" style="width:100%">
+    <div class="text">  </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">  </div>
+    <img src="images/bb.jpg" style="width:100%">
+    <div class="text">  </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">  </div>
+    <img src="images/cc.jpg" style="width:100%">
+    <div class="text">  </div>
+  </div>
+
+
+<br>
+
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html"> Videos </a></li>
+          <li><a href="exam.html"> Archives  </a></li>
+          <li><a href="gallery.html">Gallery </a></li>
+		  <li><a href="utilities.html"> utilities </a></li>
+		  <li><a href="about.html"> About this website </a></li>
+		  
+							      <!-- the following code is used for creating links to the following websites where after the click on the bonded words, visitors get to the other website.
+				  -->
+		  <li class="dropdown pull-right">
+			<a class="dropdown-link"> TEST YOURSELF</a>
+            <div class="dropdown-content">
+              <a href="https://ielts.britishcouncil.org/uzbekistan" target="_blank"> Apply IELTS now </a>
+              <a href="http://nsfla.uz/uz/" target="_blank"> CEFR </a>
+              <a href="https://www.britishcouncil.uz/en/exam/ielts" target="_blank"> British Council</a>
+              <a href="https://ielts.britishcouncil.org/CheckResults.aspxabbr title="Student Record System"> IELTS results </abbr></a>
+            </div>
+		  </li>
+		  
+         
+        </ul>
+      </nav>
+    </header>
+	<h1> Top software for your PC </h1>
+	<p> Here we have picked up top FREE programs that you can download for your PC and use them for additional material to learn English more faster and be More productive </p>
+
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+<ul id="myMenu">
+  <li><a href="http://megasoft.uz/get/411?1542103612">Lingvo</a></li>
+  <li><a href="http://megasoft.uz/get/4632?1542106708">PROMT Professional</a></li>
+  <li><a href="http://megasoft.uz/get/2532?1542106756">Google translate </a></li>
+  <li><a href="http://megasoft.uz/get/122?1542107092">QDICTIONARY</a></li>
+  <li><a href="https://www.homeenglish.ru/prog/grammar.zip">Grammar</a></li>
+  <li><a href="https://www.homeenglish.ru/prog/ETrainer.zip">ETrainer</a></li>
+  <li><a href="https://www.homeenglish.ru/prog/exerzip.rar">Sentence Exerciser</a></li>
+  <li><a href="https://www.homeenglish.ru/prog/WordsTeacherSetup.exe">WordsTeacher 1.0</a></li>
+  <li><a href="http://hitfile.net/download/free/1T13">Oxford English Dictionary</a></li>
+</ul>
+
+<script>
+function myFunction() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("mySearch");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myMenu");
+    li = ul.getElementsByTagName("li");
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>	
+	
+	<h1>  Briefly about each software listed: </h1>
+	
+	<figure>
+     <img src="images/lingvo.png" alt=" ">
+      <figcaption> <b> <i>  Lingvo  </b> </i>  </figcaption>
+	  <p> ABBYY Lingvo Dictionaries for desktop and mobile devices let you translate words, expand your vocabulary and master foreign languages. </p>
+     </figure>
+
+	 
+	 <figure>
+     <img src="images/promt.jpg" alt=" ">
+      <figcaption> <b> <i>  PROMT PROFESSIONAL  </b> </i>  </figcaption>
+	  <p>  Promt - is the use of а computer to translate text from one language into another. Тhе three main use cases for МТ are: getting the essence of the source content (gisting), translating content that would not be translated by humans since it is too costly and increasing efficiency while reducing costs for content that requires human post-editing. </p>
+     </figure>
+		
+			 
+	 <figure>
+     <img src="images/google.gif" alt=" ">
+      <figcaption> <b> <i>  Google Translate app  </b> </i>  </figcaption>
+	  <p> Google Translate is a free multilingual machine translation service developed by Google, to translate text. It offers a website interface, mobile apps for Android and iOS, and an API that helps developers build browser extensions and software applications. Google Translate supports over 100 languages at various levels and as of May 2017, serves over 500 million people daily.  </p>
+     </figure>
+		
+			 
+	 <figure>
+     <img src="images/qd.gif" alt=" ">
+      <figcaption> <b> <i>  QDICTIONARY  </b> </i>  </figcaption>
+	  <p> QDictionary allows Windows Internet Explorer users to highlight words and get their definitions or look them up in the Thesaurus using the selection's right-click context menu. QDictionary currently only supports English words.  </p>
+     </figure>
+		
+			 
+	 <figure>
+     <img src="images/gra.png" alt=" ">
+      <figcaption> <b> <i>  Grammar  </b> </i>  </figcaption>
+	  <p> Grammar is the sound, structure, and meaning system of language. All languages have grammar, and each language has its own grammar. People who speak the same language are able to communicate because they intuitively know the grammar system of that language—that is, the rules of making meaning.   </p>
+     </figure>
+		
+			 
+	 <figure>
+     <img src="images/et.jpg" alt=" ">
+      <figcaption> <b> <i>  Etrainer 4800  </b> </i>  </figcaption>
+	  <p>  
+The simulator-examiner knowledge of the English language. Tasks for the translation of proposals are given and an assessment is given. You can set the number of tasks in the exam, limit thinking time, and also keep a detailed protocol. If desired, it is permissible to review the list of all tasks and statistics. </p>
+     </figure>
+		
+			 
+	 <figure>
+     <img src="images/ss.png" alt=" ">
+      <figcaption> <b> <i>  Sentence Exerciser  </b> </i>  </figcaption>
+	  <p> English grammar test suite. Different exercises are devoted to different topics and rules. Basically, in the exercise you will need to choose the right answer from several options, but not just click the mouse, but write the answer, but, as you know, when writing, the words are remembered much better.  </p>
+     </figure>
+		
+			 
+	 <figure>
+     <img src="images/ww.png" alt=" ">
+      <figcaption> <b> <i>  Words Teacher 1.0  </b> </i>  </figcaption>
+	  <p>  The program WordsTeacher is designed to study foreign words, phrases, short expressions, without interrupting the process of working on a computer. </p>
+     </figure>
+		
+			 
+	 <figure>
+     <img src="images/ox.png" alt=" ">
+      <figcaption> <b> <i>  Oxford English Dictionary  </b> </i>  </figcaption>
+	  <p> Of course, one of the best sources for learning English is the Oxford Dictionary of English - the best English dictionary that you can download to your Windows PC, as well as to the iPhone and Android in the APK format. However, do not confuse this dictionary with translation dictionaries. It does not translate English words into any other language, such as Spanish, French, German or Italian. Here you will find a formal and scientific definition of thousands of words described in English.  </p>
+     </figure>
+		
+
+    <section>
+      <h1> Time Management </h1>
+	  
+    <p> <i> <b> <u> Create a timetable </u> </b> </i> </p>
+	<p> Make a timetable which shows every hour of every day for a week. Block out all the times where you have to be somewhere, for example school or work. You will then be able to see when you have free time. You can dedicate this time to studying, contacting your family or relaxing! </p>
+    </section>
+    
+    <section>
+     <p> <i> <b> <u> Make lists </u> </b> </i> </p>
+	<p> I am an obsessive list maker. In the morning, make a list of all the tasks you need to do during the day then when you complete one you can tick it or cross it off. It is such a satisfying feeling! </p>
+    </section>
+
+	    
+    <section>
+     <p> <i> <b> <u> Prioritise </u> </b> </i> </p>
+	<p> Sometimes your 'to do' list can be extremely overwhelming. You need to decide what the most important tasks are and make sure you do them first! Hopefully then you won't panic when you realise that the deadline for your next essay is tomorrow! </p>
+    </section>
+
+	    
+    <section>
+     <p> <i> <b> <u> Diet is important! </u> </b> </i> </p>
+	<p>  When you're very busy, it's important to eat well. Sometimes it's a good idea to devote half a day to cooking healthy meals, you can then freeze them and reheat them when you don't have time to cook. This will stop you from being tempted to buy greasy takeaways. Remember to drink lots of water too. </p>
+    </section>
+
+	    
+    <section>
+     <p> <i> <b> <u>  Remember to relax </u> </b> </i> </p>
+	<p> It's important to take some time to relax. If you don't, you probably won't complete your jobs as well as you want to. My favourite relaxation activities are reading, cooking and watching some TV in bed!  </p>
+    </section>
+	
+
+    <footer>
+      <section>
+        <h5>Site map</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html"> Videos </a></li>
+          <li><a href="exam.html"> Archives  </a></li>
+          <li><a href="gallery.html">Gallery </a></li>
+          <li><a href="about.html">About this website</a></li>
+        </ul>
+      </section>
+      <section>
+        <h5>Additional</h5>
+        <ul>
+          <li><a href="https://www.vocabulary.co.il/word-play/unscramble-the-words/" target="_blank">Vocab games</a>
+          <li><a href="https://www.usalearns.org/speaking-english" target="_blank">Speaking skills</a>
+          <li><a href="https://www.learnenglish.britishcouncil.org/en/reading-skills-practice" target="_blank"> Reading skills </a>
+          <li><a href="https://learnenglish.britishcouncil.org/en/writing-skills-practice"><abbr title="none"> Writing skills</abbr></a>
+        </ul>
+      </section>
+      <section>
+	  							      <!-- the following code is used for creating links to the following websites where after the click on the bonded words, visitors get to the other website.
+				  -->
+        <h5> IELTS HELP </h5>
+
+        <ul>
+          <li><a href="http://ieltsliz.com/" target="_blank"> IELTS Liz </a></li>
+          <li><a href="http://www.engvid.com/" target="_blank"> Video sources </a></li>
+          <li><a href="http://ielts-simon.com/" target="_blank"> Writing help</a></li>
+		  <li><a href="https://www.aehelp.com/" target="_blank"> Academic Help </a></li>
+        </ul>
+		
+      </section>
+      <section>
+        <h5>Contact</h5>
+        <p>
+         Feedback with suggestions <br>
+          <a href="malito:example">Contact <abbr title="Creator">me</abbr> via emali</a>
+        </p>
+      </section>
+    </footer>
+	  <script src="scripts/slideshow.js">
+
+</script>
+  </body>
+</html>
